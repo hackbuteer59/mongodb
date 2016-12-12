@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM dockerfile/ubuntu:16.04
 
 # Install MongoDB.
 RUN \
